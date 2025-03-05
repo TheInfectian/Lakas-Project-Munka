@@ -19,7 +19,7 @@ body {
 .homes th,
 .homes td {
     border: 1px solid #ddd;
-
+    font-family: 'Courier New';
     text-align: center;
     padding: 5px;
 }
