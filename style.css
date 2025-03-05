@@ -1,5 +1,50 @@
-.first-container {
+body {
+    background-color: wheat;
+    margin: 20px;
+    justify-content: center;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 9px 5px rgba(rgba 15, 15, 10, 0.2)
+}
+
+.data {
+    padding: 35px;
+    flex-grow: 1;
+}
+
+.homes th,
+.homes td {
+    border: 1px solid #ddd;
+
+    text-align: center;
+    padding: 5px;
+}
+
+.homes{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.homes th{
+    background-color: lightgray;
+}
+
+.homes tr:hover{
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.osszefoglalas{
+    display: flex;
+}
+
+.container {
     background: whitesmoke;
     border-radius: 20px;
     box-shadow: 0 5px 6px rgba(1, 1, 1, 0.2);
+    display: flex;
 }
