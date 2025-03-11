@@ -2,6 +2,7 @@ body {
     background-color: wheat;
     margin: 20px;
     justify-content: center;
+    text-align: center;
 }
 
 .container img {
@@ -16,35 +17,85 @@ body {
     flex-grow: 1;
 }
 
-.homes th,
-.homes td {
+.homesa th,
+.homesa td {
     border: 1px solid #ddd;
     font-family: 'Courier New';
     text-align: center;
     padding: 5px;
 }
 
-.homes{
+.homesa{
     border-collapse: collapse;
     width: 100%;
 }
 
-.homes th{
+.homesa th{
     background-color: lightgray;
 }
 
-.homes tr:hover{
+.homesa tr:hover{
     background-color: aqua;
     transition: 0.3s;
 }
 
 .osszefoglalas{
     display: flex;
+    text-align: left;
 }
 
 .container {
     background: whitesmoke;
     border-radius: 20px;
+    box-shadow: 0 5px 6px rgba(1, 1, 1, 0.2);
+    display: flex;
+}
+
+/* data2 ↓↓↓ */
+
+.container2  img{
+    width: 230px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 9px 5px rgba(rgba 15, 15, 10, 0.2)
+}
+
+.data2 {
+    padding: 35px;
+    flex-grow: 1;
+}
+
+.homesb th,
+.homesb td {
+    border: 1px solid #ddd;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 5px;
+}
+
+.homesb {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.homesb th {
+    background-color: gainsboro;
+}
+
+.homesb tr:hover{
+    background-color: lightgreen;
+    transition: 0.3s;
+}
+
+.Összefoglalás {
+    display: flex;
+    gap: 10px;
+    text-align: left;
+}
+
+.container2 {
+    background: azure;
+    border-radius: 25px;
     box-shadow: 0 5px 6px rgba(1, 1, 1, 0.2);
     display: flex;
 }
