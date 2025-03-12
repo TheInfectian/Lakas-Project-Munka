@@ -1,5 +1,5 @@
 body {
-    background-color: wheat;
+    background-color: lightgoldenrodyellow;
     margin: 20px;
     justify-content: center;
     text-align: center;
@@ -98,4 +98,31 @@ body {
     border-radius: 25px;
     box-shadow: 0 5px 6px rgba(1, 1, 1, 0.2);
     display: flex;
+}
+
+/* data3 ↓↓↓ */
+
+.pictures {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+.pictures img:hover {
+    transition: 100ms;
+    transform: scale(2,2);
+}
+
+.b↳-btn {
+    background-color: lightcyan;
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.b↳-btn:hover {
+    background-color: aquamarine;
+    font-style: italic;
 }
